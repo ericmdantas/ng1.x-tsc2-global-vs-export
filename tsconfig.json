@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es6",
+        "rootDir": ".",
+        "outDir": "build",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "strictNullChecks": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "!node_modules/**/*.ts",
+        "!bower_components/**/*.ts",
+        "node_modules/@types/**/*.ts"
+    ],
+    "types": [
+        "angular"
+    ]
+}
